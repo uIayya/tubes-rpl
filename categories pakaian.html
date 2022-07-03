@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <title>Store - Your Best Marketplace</title>
+    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link href="style/main.css" rel="stylesheet" />
+    <link href="style/filter.css" rel="stylesheet" />
+  </head>
+  
+  <body>
+
+     <!-- Navigation -->
+     <nav
+     class="navbar navbar-expand-lg navbar-light navbar-store fixed-top navbar-fixed-top"
+     data-aos="fade-down"
+   >
+     <div class="container">
+       <!-- <a class="navbar-brand" href="/">
+         <img src="images/logo.svg" alt="" />
+       </a> -->
+       <button
+         class="navbar-toggler"
+         type="button"
+         data-toggle="collapse"
+         data-target="#navbarResponsive"
+         aria-controls="navbarResponsive"
+         aria-expanded="false"
+         aria-label="Toggle navigation"
+       >
+         <span class="navbar-toggler-icon"></span>
+       </button>
+       <div class="collapse navbar-collapse" id="navbarResponsive">
+         <ul class="navbar-nav ml-auto">
+           <li class="nav-item">
+             <a class="nav-link" href="/">Home </a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="categories.html">Categories</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="#">Rewards</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="register.html">Sign Up</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="login.html">Sign In</a>
+            </li>
+         </ul>
+        </div>
+      </div>
+   </nav>
+
+
+   
+   <!-- Page Content -->
+   <div class="page-content page-categories">
+
+      <!--Filtering-->
+      <div class="wrapper">
+        <div class="filters"> <button class="btn btn-success" type="button" data-toggle="collapse" data-target="#mobile-filter" aria-expanded="true" aria-controls="mobile-filter">Filter<span class="px-1 fas fa-filter"></span></button> </div>
+        <div id="mobile-filter">
+            <div class="py-3">
+                <h5 class="font-weight-bold">Categories</h5>
+                <ul class="list-group">
+                    <li class="list-group-item list-group-item-action d-flex justify-content-between align-items-center category"> vegetables <span class="badge badge-primary badge-pill">328</span> </li>
+                    <li class="list-group-item list-group-item-action d-flex justify-content-between align-items-center category"> Fruits <span class="badge badge-primary badge-pill">112</span> </li>
+                    <li class="list-group-item list-group-item-action d-flex justify-content-between align-items-center category"> Kitchen Accessories <span class="badge badge-primary badge-pill">32</span> </li>
+                    <li class="list-group-item list-group-item-action d-flex justify-content-between align-items-center category"> Chefs Tips <span class="badge badge-primary badge-pill">48</span> </li>
+                </ul>
+            </div>
+            <div class="py-3">
+                <h5 class="font-weight-bold">Brands</h5>
+                <form class="brand">
+                    <div class="form-inline d-flex align-items-center py-1"> <label class="tick">Royal Fields <input type="checkbox"> <span class="check"></span> </label> </div>
+                    <div class="form-inline d-flex align-items-center py-1"> <label class="tick">Crasmas Fields <input type="checkbox" checked> <span class="check"></span> </label> </div>
+                    <div class="form-inline d-flex align-items-center py-1"> <label class="tick">Vegetarisma Farm <input type="checkbox" checked> <span class="check"></span> </label> </div>
+                    <div class="form-inline d-flex align-items-center py-1"> <label class="tick">Farmar Field Eve <input type="checkbox"> <span class="check"></span> </label> </div>
+                    <div class="form-inline d-flex align-items-center py-1"> <label class="tick">True Farmar Steve <input type="checkbox"> <span class="check"></span> </label> </div>
+                </form>
+            </div>
+            <div class="py-3">
+                <h5 class="font-weight-bold">Rating</h5>
+                <form class="rating">
+                    <div class="form-inline d-flex align-items-center py-2"> <label class="tick"><span class="fas fa-star"></span> <span class="fas fa-star"></span> <span class="fas fa-star"></span> <span class="fas fa-star"></span> <span class="fas fa-star"></span> <input type="checkbox"> <span class="check"></span> </label> </div>
+                    <div class="form-inline d-flex align-items-center py-2"> <label class="tick"> <span class="fas fa-star"></span> <span class="fas fa-star"></span> <span class="fas fa-star"></span> <span class="fas fa-star"></span> <span class="far fa-star px-1 text-muted"></span> <input type="checkbox"> <span class="check"></span> </label> </div>
+                    <div class="form-inline d-flex align-items-center py-2"> <label class="tick"><span class="fas fa-star"></span> <span class="fas fa-star"></span> <span class="fas fa-star"></span> <span class="far fa-star px-1 text-muted"></span> <span class="far fa-star px-1 text-muted"></span> <input type="checkbox"> <span class="check"></span> </label> </div>
+                    <div class="form-inline d-flex align-items-center py-2"> <label class="tick"><span class="fas fa-star"></span> <span class="fas fa-star"></span> <span class="far fa-star px-1 text-muted"></span> <span class="far fa-star px-1 text-muted"></span> <span class="far fa-star px-1 text-muted"></span> <input type="checkbox"> <span class="check"></span> </label> </div>
+                    <div class="form-inline d-flex align-items-center py-2"> <label class="tick"> <span class="fas fa-star"></span> <span class="far fa-star px-1 text-muted"></span> <span class="far fa-star px-1 text-muted"></span> <span class="far fa-star px-1 text-muted"></span> <span class="far fa-star px-1 text-muted"></span> <input type="checkbox"> <span class="check"></span> </label> </div>
+                </form>
+            </div>
+        </div>
+        <div class="content py-md-0 py-3">
+            <section id="sidebar">
+                <div class="py-3">
+                    <h5 class="font-weight-bold">Kategori</h5>
+                    <ul class="list-group">
+                        <li class="list-group-item list-group-item-action d-flex justify-content-between align-items-center category"> Pakaian <span class="badge badge-primary badge-pill">328</span> </li>
+                        <li class="list-group-item list-group-item-action d-flex justify-content-between align-items-center category"> Sepatu <span class="badge badge-primary badge-pill">112</span> </li>
+                        <li class="list-group-item list-group-item-action d-flex justify-content-between align-items-center category"> Celana <span class="badge badge-primary badge-pill">32</span> </li>
+                        <li class="list-group-item list-group-item-action d-flex justify-content-between align-items-center category"> Aksesoris <span class="badge badge-primary badge-pill">48</span> </li>
+                        <li class="list-group-item list-group-item-action d-flex justify-content-between align-items-center category"> Tas <span class="badge badge-primary badge-pill">100</span> </li>
+                        <li class="list-group-item list-group-item-action d-flex justify-content-between align-items-center category"> Luaran <span class="badge badge-primary badge-pill">254</span> </li>
+
+
+                    </ul>
+                </div>
+                <div class="py-3">
+                    <h5 class="font-weight-bold">Bahan Dasar</h5>
+                    <form class="brand">
+                        <div class="form-inline d-flex align-items-center py-1"> <label class="tick">Katun <input type="checkbox"> <span class="check"></span> </label> </div>
+                        <div class="form-inline d-flex align-items-center py-1"> <label class="tick">Rajut <input type="checkbox" checked> <span class="check"></span> </label> </div>
+                        <div class="form-inline d-flex align-items-center py-1"> <label class="tick">Sintetis <input type="checkbox" checked> <span class="check"></span> </label> </div>
+                        <div class="form-inline d-flex align-items-center py-1"> <label class="tick">Denim <input type="checkbox"> <span class="check"></span> </label> </div>
+                        <div class="form-inline d-flex align-items-center py-1"> <label class="tick">Kulit<input type="checkbox"> <span class="check"></span> </label> </div>
+                    </form>
+                </div>
+                <div class="py-3">
+                    <h5 class="font-weight-bold">Penilaian</h5>
+                    <form class="rating">
+                        <div class="form-inline d-flex align-items-center py-2"> <label class="tick">☆☆☆☆☆<span class="fas fa-star"></span> <span class="fas fa-star"></span> <span class="fas fa-star"></span> <span class="fas fa-star"></span> <span class="fas fa-star"></span> <input type="checkbox"> <span class="check"></span> </label> </div>
+                        <div class="form-inline d-flex align-items-center py-2"> <label class="tick">☆☆☆☆ <span class="fas fa-star"></span> <span class="fas fa-star"></span> <span class="fas fa-star"></span> <span class="fas fa-star"></span> <span class="far fa-star px-1 text-muted"></span> <input type="checkbox"> <span class="check"></span> </label> </div>
+                        <div class="form-inline d-flex align-items-center py-2"> <label class="tick">☆☆☆<span class="fas fa-star"></span> <span class="fas fa-star"></span> <span class="fas fa-star"></span> <span class="far fa-star px-1 text-muted"></span> <span class="far fa-star px-1 text-muted"></span> <input type="checkbox"> <span class="check"></span> </label> </div>
+                        <div class="form-inline d-flex align-items-center py-2"> <label class="tick">☆☆<span class="fas fa-star"></span> <span class="fas fa-star"></span> <span class="far fa-star px-1 text-muted"></span> <span class="far fa-star px-1 text-muted"></span> <span class="far fa-star px-1 text-muted"></span> <input type="checkbox"> <span class="check"></span> </label> </div>
+                        <div class="form-inline d-flex align-items-center py-2"> <label class="tick"> ☆<span class="fas fa-star"></span> <span class="far fa-star px-1 text-muted"></span> <span class="far fa-star px-1 text-muted"></span> <span class="far fa-star px-1 text-muted"></span> <span class="far fa-star px-1 text-muted"></span> <input type="checkbox"> <span class="check"></span> </label> </div>
+                    </form>
+                </div>
+            </section>
+      </div>
+  
+    <section class="store-new-products">
+        <div class="container">
+          <div class="row">
+            <div class="col-12" data-aos="fade-up">
+              <h5>Semua Barang</h5>
+            </div>
+          </div>
+          <div class="row">
+            <div
+              class="col-6 col-md-4 col-lg-3"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+            <a class="component-products d-block" href="details.html">
+                <div class="products-thumbnail">
+                  <div
+                    class="products-image"
+                    style="
+                      background-image: url('images/10_kaos\ vintage.jpg');
+                    "
+                  ></div>
+                </div>
+                <div class="products-text">
+                  Kaos Vintage
+                </div>
+                <div class="products-price">
+                  IDR50,000
+                </div>
+              </a>
+            </div>
+            <div
+              class="col-6 col-md-4 col-lg-3"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <a class="component-products d-block" href="details.html">
+                <div class="products-thumbnail">
+                  <div
+                    class="products-image"
+                    style="
+                      background-image: url('images/1_cardigan\ fuschia.jpg');
+                    "
+                  ></div>
+                </div>
+                <div class="products-text">
+                  Kardigan Fuschia
+                </div>
+                <div class="products-price">
+                  IDR80,000
+                </div>
+              </a>
+            </div>
+            <div
+              class="col-6 col-md-4 col-lg-3"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
+              <a class="component-products d-block" href="details.html">
+                <div class="products-thumbnail">
+                  <div
+                    class="products-image"
+                    style="
+                      background-image: url('images/2_kemeja\ rimpel.jpg');
+                    "
+                  ></div>
+                </div>
+                <div class="products-text">
+                  Kemeja Rimpel
+                </div>
+                <div class="products-price">
+                  IDR60,000
+                </div>
+              </a>
+            </div>
+            <div
+              class="col-6 col-md-4 col-lg-3"
+              data-aos="fade-up"
+              data-aos-delay="400"
+            >
+              <a class="component-products d-block" href="details.html">
+                <div class="products-thumbnail">
+                  <div
+                    class="products-image"
+                    style="
+                      background-image: url('images/3_tank\ top\ rib.jpg');
+                    "
+                  ></div>
+                </div>
+                <div class="products-text">
+                  Tank Top Kain Rib
+                </div>
+                <div class="products-price">
+                  IDR95,000
+                </div>
+              </a>
+            </div>
+            <div
+              class="col-6 col-md-4 col-lg-3"
+              data-aos="fade-up"
+              data-aos-delay="500"
+            >
+              <a class="component-products d-block" href="details.html">
+                <div class="products-thumbnail">
+                  <div
+                    class="products-image"
+                    style="
+                      background-image: url('images/4_sweatshirt\ garis.jpg');
+                    "
+                  ></div>
+                </div>
+                <div class="products-text">
+                  Sweatshirt Garis
+                </div>
+                <div class="products-price">
+                  IDR67,000
+                </div>
+              </a>
+            </div>
+            <div
+              class="col-6 col-md-4 col-lg-3"
+              data-aos="fade-up"
+              data-aos-delay="600"
+            >
+              <a class="component-products d-block" href="details.html">
+                <div class="products-thumbnail">
+                  <div
+                    class="products-image"
+                    style="
+                      background-image: url('images/5_polo\ kuning.jpg');
+                    "
+                  ></div>
+                </div>
+                <div class="products-text">
+                  Atasan Polo Kuning
+                </div>
+                <div class="products-price">
+                  IDR70,000
+                </div>
+              </a>
+            </div>
+            <div
+              class="col-6 col-md-4 col-lg-3"
+              data-aos="fade-up"
+              data-aos-delay="700"
+            >
+              <a class="component-products d-block" href="details.html">
+                <div class="products-thumbnail">
+                  <div
+                    class="products-image"
+                    style="
+                      background-image: url('images/8_atasan\ bordir.jpg');
+                    "
+                  ></div>
+                </div>
+                <div class="products-text">
+                  Kemeja Bordir
+                </div>
+                <div class="products-price">
+                  IDR100,000
+                </div>
+              </a>
+            </div>
+            <div
+              class="col-6 col-md-4 col-lg-3"
+              data-aos="fade-up"
+              data-aos-delay="800"
+            >
+              <a class="component-products d-block" href="details.html">
+                <div class="products-thumbnail">
+                  <div
+                    class="products-image"
+                    style="
+                      background-image: url('images/9_atasan\ renda.jpg');
+                    "
+                  ></div>
+                </div>
+                <div class="products-text">
+                  Atasan Renda
+                </div>
+                <div class="products-price">
+                  IDR82,000
+                </div>
+              </a>
+            </div>
+            
+            <div
+              class="col-6 col-md-4 col-lg-3"
+              data-aos="fade-up"
+              data-aos-delay="400"
+            >
+              <a class="component-products d-block" href="details.html">
+                <div class="products-thumbnail">
+                  <div
+                    class="products-image"
+                    style="
+                      background-image: url('images/11_dress\ satin.jpg');
+                    "
+                  ></div>
+                </div>
+                <div class="products-text">
+                  Dress Biru Satin
+                </div>
+                <div class="products-price">
+                  IDR95,000
+                </div>
+              </a>
+            </div>
+  
+            <div
+              class="col-6 col-md-4 col-lg-3"
+              data-aos="fade-up"
+              data-aos-delay="500"
+            >
+              <a class="component-products d-block" href="details.html">
+                <div class="products-thumbnail">
+                  <div
+                    class="products-image"
+                    style="
+                      background-image: url('images/10_sweater\ rajut.jpg');
+                    "
+                  ></div>
+                </div>
+                <div class="products-text">
+                  Sewater Rajut 
+                </div>
+                <div class="products-price">
+                  IDR150,000
+                </div>
+              </a>
+            </div>
+   
+          </div>
+        </div>
+      </section>
+    </div>   
+      
+      <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-12 text-center">
+              <p class="pt-4 pb-2">
+                2019 Copyright Store. All Rights Reserved.
+              </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="/vendor/jquery/jquery.slim.min.js"></script>
+    <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="/script/navbar-scroll.js"></script>
+  </body>
+</html>
